@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+main {
+	width: 768px;
+	margin: auto;
+}
+
+#en-tête {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#logo {
+	width: 150px;
+}
+
+#inscription {
+	color: #0065FC;
+	font-weight: bold;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	color: #0065FC;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+color: black;
+} 
