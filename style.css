@@ -89,9 +89,39 @@ button {
 	margin-left: -10px;
 }
 
-.logo-filters {
-	border-radius: 10px 10px 10px 10px;
+#contener_filters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.icon-filters {
+	border: 2px #F2F2F2 solid;
+	border-radius: 200px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-right: 10px;
+}
+
+.fa-money-bill-wave, .fa-heart, .fa-dog {
+	padding: 15px;
+	border-radius: 200px;
 	background-color: #DEEBFF;
+	margin-right: 10px;
+}
+
+.fa-child {
+	padding: 15px 18px 15px 18px;
+	border-radius: 200px;
+	background-color: #DEEBFF;
+	margin-right: 10px;
+}
+
+.fa-info {
+	padding: 10px 15px 10px 15px;
+	border-radius: 200px;
+	border: 2px #F2F2F2 solid;
+	margin-right: 10px;
 }
 
 /* Section 2 */
