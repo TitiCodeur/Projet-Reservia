@@ -127,6 +127,11 @@ button {
 	padding-right: 10px;
 }
 
+.icon-filters:hover {
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
 .fa-money-bill-wave, .fa-heart, .fa-dog {
 	padding: 15px;
 	border-radius: 200px;
@@ -173,6 +178,10 @@ button {
 	margin: 0 20px 20px 20px;
 }
 
+.blocs_section_2:hover {
+transform: scale(1.03,1.03);
+}
+
 .photos_section_2 {
 	width: 45%;
 	overflow: hidden;
@@ -209,6 +218,10 @@ button {
 	box-shadow: 0px 0px 7px grey;
 	margin: 0 20px 20px 20px;
 	padding: 10px 10px 0 10px;
+}
+
+.blocs_section_3:hover {
+transform: scale(1.03,1.03);
 }
 
 .photos_section_3 {
@@ -255,6 +268,10 @@ button {
 	border-radius: 50px;
 	box-shadow: 0px 0px 7px grey;
 	margin: 0 20px 20px 20px;
+}
+
+.blocs_section_4:hover {
+transform: scale(1.03,1.03);
 }
 
 .photos_section_4 {
