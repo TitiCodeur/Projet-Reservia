@@ -21,6 +21,10 @@ a:visited {
 	color: black;
 } 
 
+.fa-star, .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info {
+	color: #0065FC;
+}
+
 /* Header */
 
 #en-tête {
@@ -51,6 +55,44 @@ nav ul li {
 /* Body  */
 
 /* Section 1 */
+
+#search_bar {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+
+}
+
+#logo-location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F2F2F2;
+	border-radius: 10px 0 0 10px;
+	width: 40px;
+}
+
+input {
+	border: none;
+	border-top: 1px #F2F2F2 solid;
+	border-bottom: 1px #F2F2F2 solid;
+	padding-left: 10px;
+}
+
+button {
+	background-color: #0065FC;
+	color: white;
+	border: none;
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+	width: 40px;
+	margin-left: -10px;
+}
+
+.logo-filters {
+	border-radius: 10px 10px 10px 10px;
+	background-color: #DEEBFF;
+}
 
 /* Section 2 */
 
@@ -183,6 +225,7 @@ nav ul li {
 footer {
 	background-color: #F2F2F2;
 	padding-left: 30px;
+	padding-bottom: 30px;
 }
 
 footer h3 {
