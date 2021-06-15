@@ -84,8 +84,6 @@ nav {
 	border-bottom: 2px #0065FC solid;
 }
 
-/* Body  */
-
 /* Section 1 */
 
 #section_1 {
@@ -96,7 +94,6 @@ nav {
 	display: flex;
 	flex-direction: row;
 	height: 40px;
-
 }
 
 #logo-location {
@@ -204,7 +201,6 @@ button {
 	overflow: hidden;
 }
 
-
 .photos_section_2 img {
 	border-radius: 50px 0px 0px 50px;
 	width:  100%;
@@ -266,10 +262,6 @@ button {
 
 .texte_section_3 p {
 	margin: 10px 0 10px 0;
-}
-
-.stars {
-	
 }
 
 /* Section 4 */
