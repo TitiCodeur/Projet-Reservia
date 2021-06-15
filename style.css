@@ -7,6 +7,7 @@
 main {
 	max-width: 768px;
 	margin: auto;
+	font-size: 1em;
 }
 
 li {
@@ -14,6 +15,7 @@ li {
 }
 
 a {
+	color: black;
 	text-decoration: none;
 }
 
@@ -23,6 +25,17 @@ a:visited {
 
 .fa-star, .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info {
 	color: #0065FC;
+}
+
+h1, h2 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/* Déclaration des polices */
+
+main {
+	font-family: 'Raleway', sans-serif;
 }
 
 /* Header */
@@ -71,8 +84,6 @@ nav {
 	border-bottom: 2px #0065FC solid;
 }
 
-/* Body  */
-
 /* Section 1 */
 
 #section_1 {
@@ -83,7 +94,6 @@ nav {
 	display: flex;
 	flex-direction: row;
 	height: 40px;
-
 }
 
 #logo-location {
@@ -168,6 +178,10 @@ button {
 	margin-right: 20px;
 }
 
+#populaires p {
+	font-size: 2em;
+}
+
 .blocs_section_2 {
 	height: 300px;
 	background-color: white;
@@ -179,14 +193,13 @@ button {
 }
 
 .blocs_section_2:hover {
-transform: scale(1.03,1.03);
+	transform: scale(1.03,1.03);
 }
 
 .photos_section_2 {
 	width: 45%;
 	overflow: hidden;
 }
-
 
 .photos_section_2 img {
 	border-radius: 50px 0px 0px 50px;
@@ -200,7 +213,7 @@ transform: scale(1.03,1.03);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-left: 20px;
+	margin: 0 10px 10px 20px;
 }
 
 /* Section 3 */
@@ -221,7 +234,7 @@ transform: scale(1.03,1.03);
 }
 
 .blocs_section_3:hover {
-transform: scale(1.03,1.03);
+	transform: scale(1.03,1.03);
 }
 
 .photos_section_3 {
@@ -240,6 +253,7 @@ transform: scale(1.03,1.03);
 	height: 40%;
 	padding-left: 20px;
 	padding-bottom: 30px;
+	margin: 0 10px 10px 20px;
 }
 
 .texte_section_3 h2 {
@@ -248,10 +262,6 @@ transform: scale(1.03,1.03);
 
 .texte_section_3 p {
 	margin: 10px 0 10px 0;
-}
-
-.stars {
-	
 }
 
 /* Section 4 */
@@ -271,7 +281,7 @@ transform: scale(1.03,1.03);
 }
 
 .blocs_section_4:hover {
-transform: scale(1.03,1.03);
+	transform: scale(1.03,1.03);
 }
 
 .photos_section_4 {
@@ -304,3 +314,6 @@ footer h3 {
 	margin: 0;
 }
 
+footer a:hover {
+	text-decoration: underline;
+}
