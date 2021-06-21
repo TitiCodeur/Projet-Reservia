@@ -240,7 +240,7 @@ button {
 }
 
 .blocs_section_2 {
-	height: 300px;
+	height: 400px;
 	background-color: white;
 	display: flex;
 	border-radius: 50px;
@@ -286,7 +286,7 @@ button {
 }
 
 .blocs_section_3 {
-	height: 300px;
+	height: 400px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -339,7 +339,7 @@ button {
 }
 
 .blocs_section_4 {
-	height: 300px;
+	height: 400px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
