@@ -442,13 +442,18 @@ footer a:hover {
 	}
 
 	.blocs_section_4 {
+		border-radius: 40px;
 		margin: 0 10px 0 10px;
+	}
+
+	.photos_section_4 img {
+		border-radius: 40px 40px 0 0;
 	}
 
 	#gros_bloc_section_4 {
 		display: grid;
 		grid-template-columns: 25% 25% 25% 25%;
-		grid-template-rows: 200px 100px 200px;
+		grid-template-rows: 200px 50px 200px;
 	}
 
 	.grid_1, .grid_4 {
@@ -457,8 +462,16 @@ footer a:hover {
 		grid-row-end: span2;
 	} 
 
-	.grid_2, .grid_5 {
+	.grid_1 h2, .grid_4 h2 {
+		height: 4%;
+	}
+
+	.grid_2 {
 		height: 95%;
+	}
+
+	.grid_5 {
+		height: 93%;
 	}
 
 	.grid_3, .grid_6 {
@@ -484,7 +497,7 @@ footer a:hover {
 	.grid_6 {
 		grid-column-start: 4;
 		grid-row-start: 2;
-		grid-row-end: span2;
+		grid-row-end: 4;
 	}
 
 	/* Footer */
