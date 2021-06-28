@@ -392,6 +392,10 @@ footer a:hover {
 		margin: 20px;
 	}
 
+	.stars {
+		font-size: 1em;
+	}
+
 	/* Header */
 	
 	header {
@@ -413,41 +417,93 @@ footer a:hover {
 		text-align: center;
 	}
 
-	/* Section 3 et 4 */
+	/* Section 2 et 3 */
+
+	#corps_et_aside {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	#section_2 h1, #section_3 h1 {
 		font-size: 1.5em;
 	}
 
 	#section_2 h2, #section_3 h2 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	#section_2 h3, #section_3 h3 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	#section_2 p, #section_3 p {
 		font-size: 1em;
 	}
 
-	#corps_et_aside {
-		display: flex;
-	}
+	/* Section 2 */
 
 	#section_2 {
 		order: 2;
-		width: 30%;
+		width: 29%;
+		border-radius: 20px;
 	}
 
+	#populaires {
+		margin-bottom: 20px;
+	}
+
+	.blocs_section_2 {
+		height: 160px;
+		width: 90%;
+		border-radius: 30px;
+		padding: 5px;
+	}
+
+	.blocs_section_2 img {
+		border-radius: 25px 0px 0px 25px;
+		height: 100%;
+		margin: 0;
+	}
+
+	.texte_section_2 {
+		margin: 0 5px 10px 20px;
+	}
+
+	/* Section3 */
+
 	#section_3 {
-		width: 70%;
+		width: 69%;
+		background-color: #F2F2F2;
+		border-radius: 20px;
+	}
+
+	#section_3 h1 {
+		margin-bottom: 40px;
 	}
 
 	#gros_bloc_section_3 {
 		display: grid;
 		grid-template-columns: 33% 33% 33%;
-		grid-template-rows: 200px 50px 200px;
+	}
+
+	.blocs_section_3 {
+		height: 190px;
+		width: 90%;
+		border-radius: 30px;
+		margin-bottom: 20px;
+		padding: 5px;
+	}
+
+	.blocs_section_3 img {
+		border-radius: 25px 25px 0 0;
+	}
+
+	.texte_section_3 {
+		margin: 0 10px 20px 15px;
+	}
+
+	#section_3 h3 {
+		margin-top: 50px;
 	}
 
 	/* Section 4 */
