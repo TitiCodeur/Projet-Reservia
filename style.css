@@ -419,6 +419,74 @@ footer a:hover {
 		text-align: center;
 	}
 
+	/* Section 4 */
+
+	#section_4 {
+		padding-bottom: 50px;
+	}
+
+	.photos_section_4 {
+		height: 90%;
+	}
+
+	.blocs_section_4 h2 {
+		height: 10%;
+	}
+
+	#section_4 h1 {
+		font-size: 2em;
+	}
+
+	#section_4 h2 {
+		font-size: 1em;
+	}
+
+	.blocs_section_4 {
+		margin: 0 10px 0 10px;
+	}
+
+	#gros_bloc_section_4 {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-template-rows: 200px 100px 200px;
+	}
+
+	.grid_1, .grid_4 {
+		height: 100%;
+		grid-row-start: 1;
+		grid-row-end: span2;
+	} 
+
+	.grid_2, .grid_5 {
+		height: 95%;
+	}
+
+	.grid_3, .grid_6 {
+		height: 100%;
+	}
+ 
+	.grid_2 {
+		grid-column-start: 2;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.grid_3 {
+		grid-column-start: 2;
+		grid-row-start: 3;
+	}
+
+	.grid_5 {
+		grid-column-start: 4;
+		grid-row-start: 1;
+	}
+
+	.grid_6 {
+		grid-column-start: 4;
+		grid-row-start: 2;
+		grid-row-end: span2;
+	}
+
 	/* Footer */
 
 	footer {
