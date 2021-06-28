@@ -31,6 +31,9 @@ a:visited {
 	color: #F2F2F2;
 }
 
+.stars {
+	font-size: 2em;
+}
 
 /* Taille du texte */
 
@@ -270,7 +273,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 0 10px 10px 20px;
+	margin: 0 10px 40px 20px;
 
 }
 
@@ -389,4 +392,47 @@ footer p {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+/* Version Desktop */
+
+@media all and (min-width: 768px) {
+
+	/* Header */
+	
+	header {
+		display: flex;
+		text-align: center;
+	}
+
+	.link1 {
+		padding-bottom: 10px;
+		border-bottom: 2px #0065FC solid;
+		width: 100%;
+		text-align: center;
+	}
+
+	.link2 {
+		padding-bottom: 10px;
+		border-top: 2px #F2F2F2 solid;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Footer */
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+		padding-right: 200px;
+	}
+
+	footer h3 {
+		font-weight: bold;
+		font-size: 1em;
+	}
+
+	footer p {
+		font-size: 1em;
+	}
 }
