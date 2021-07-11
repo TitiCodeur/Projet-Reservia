@@ -1,3 +1,39 @@
+/* SOMMAIRE 
+
+Site codé en MOBILE FIRST
+
+Propriétés Générales : 37
+Taille du texte : 74
+Déclaration des polices : 86
+Header : 92
+Section 1 : 145
+Section 2 : 285
+Section 3 : 344
+Section 4 : 397
+Footer : 434
+
+Version DESKTOP
+
+Body : 460
+Header : 470 
+Section 1 : 521
+Section 2 & 3 : 611
+Section 2 : 626
+Section 3 : 657
+Section 4 : 692
+Footer : 774
+
+Version TABLETTE
+
+Body : 796
+Header : 806
+Section 1 : 857
+Section 2 & 3 : 947
+Section 2 : 964
+Section 3 : 1003
+Section 4 : 1038
+Footer : 1110
+
 /* Propriétés Générales */
 
 * {
@@ -117,14 +153,17 @@ nav p {
 }
 
 #section_1 h2 {
+	font-weight: normal;
+    font-size: 2em;
+    margin: 20px 0 0 0;
+}
+
+#section_1 h3 {
+	font-weight: bold;
+	font-size: 2em;
 	margin-top: 0;
 }
 
-#section_1 h4 {
-	font-weight: normal;
-    font-size: 2.2em;
-    margin: 20px 0 0 0;
-}
 #section_1 p {
 	font-size: 2.2em;
 	margin: 0;
@@ -489,7 +528,7 @@ footer a:hover {
 		font-size: 1.2em;
 	}
 
-	#section_1 h4 {
+	#section_1 h2 {
 		font-size: 0.9em;
 		font-weight: normal;
    		margin: 5px 0 0 0;
@@ -534,9 +573,10 @@ footer a:hover {
 		align-items: baseline;
 	}
 
-	#encore_une_div h2 {
+	#encore_une_div h3 {
 		font-size: 1em;
 		padding-right: 20px;
+		margin: 0;
 	}
 
 	#contener_filters {
@@ -824,7 +864,7 @@ footer a:hover {
 		font-size: 1.2em;
 	}
 
-	#section_1 h4 {
+	#section_1 h2 {
 		font-size: 0.9em;
 		font-weight: normal;
    		margin: 5px 0 0 0;
@@ -869,9 +909,10 @@ footer a:hover {
 		align-items: baseline;
 	}
 
-	#encore_une_div h2 {
+	#encore_une_div h3 {
 		font-size: 1em;
 		padding-right: 20px;
+		margin: 0;
 	}
 
 	#contener_filters {
